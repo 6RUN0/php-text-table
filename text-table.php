@@ -105,7 +105,7 @@ class ArrayToTextTable
      */
     public function render($return=false)
     {
-        if($return) ob_start(null, 0, true); 
+        if($return) ob_start(); 
   
         $this->printLine();
         $this->printHeading();
